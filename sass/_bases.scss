@@ -16,9 +16,30 @@
 .cont-nav1{
 	display:inline-block;
 }
-.carousel-inner>.item>img{
-	height: 900px;
+#hero1{
+  background-image: url(../img/img_city.jpg);
+  background-size:100%;
+  height:$height_cr;
+  background-position:center center;
+  background-attachment:fixed;
+  color:white;
+
 }
+ .carousel-inner> .item > a> img{
+ height:900px !important;
+ }
+ .float-right{
+ 	float:right;
+ }
+ .float-left{
+ 	float:left;
+ }
+ #portfolio figure {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
 /*.navbar-nav{
 	li:hover{
 		background-color:$background_uno;

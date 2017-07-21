@@ -5822,8 +5822,16 @@ button.close {
 .cont-nav1 {
   display: inline-block; }
 
-.carousel-inner > .item > img {
-  height: 900px; }
+#hero1 {
+  background-image: url(../img/img_city.jpg);
+  background-size: 100%;
+  height: 900px;
+  background-position: center center;
+  background-attachment: fixed;
+  color: white; }
+
+.carousel-inner > .item > a > img {
+  height: 900px !important; }
 
 /*.navbar-nav{
 	li:hover{
