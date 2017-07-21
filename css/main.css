@@ -5816,6 +5816,15 @@ button.close {
   bottom: 20px;
   z-index: 9999; }
 
+.glyphicon-th:before, .glyphicon-th-list:before, .glyphicon-menu-hamburger:before {
+  font-size: 100px; }
+
+.cont-nav1 {
+  display: inline-block; }
+
+.carousel-inner > .item > img {
+  height: 900px; }
+
 /*.navbar-nav{
 	li:hover{
 		background-color:$background_uno;

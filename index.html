@@ -9,12 +9,11 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
 	
-		<!-- navbar 1-->
+<!--..................... navbar 1...............................................................................................-->
 
 	<div class="cont-nav1">
 		<div class="nav1">
@@ -41,108 +40,122 @@
 		</div>
 	</div>
 
-		<!-- navbar 2-->
-	
-		
-			<nav class="navbar navbar-default">
-				<div class="container">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="#">Hestia Pro</a>
-					</div>
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-right">
-							<li class="dropdown">
-					          	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FEATURES <span class="caret"></span></a>
-					          	<ul class="dropdown-menu">
-						            <li><a href="#">Action</a></li>
-						            <li><a href="#">Another action</a></li>
-						            <li><a href="#">Something else here</a></li>
-						            <li><a href="#">Separated link</a></li>
-					          	</ul>
-					        </li>
-					        <li class="dropdown">
-					          	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SECTIONS <span class="caret"></span></a>
-					          	<ul class="dropdown-menu">
-						            <li><a href="#">Action</a></li>
-						            <li><a href="#">Another action</a></li>
-						            <li><a href="#">Something else here</a></li>
-						            <li><a href="#">Separated link</a></li>
-					          	</ul>
-					        </li>
-							<li><a href="#">SHOP</a></li>
-							<li><a href="#">BLOG</a></li>
-							<li><a href="#">CONTACT</a></li>
-							<a href="#"><button type="button" class="btn">BUY NOW</button></a>
+<!--................................ navbar 2......................................................................................-->
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Hestia Pro</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+					    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FEATURES <span class="caret"></span></a>
+					    <ul class="dropdown-menu">
+						    <li><a href="#">Action</a></li>
+						    <li><a href="#">Another action</a></li>
+						    <li><a href="#">Something else here</a></li>
+						    <li><a href="#">Separated link</a></li>
+					    </ul>
+					</li>
+					<li class="dropdown">
+					    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SECTIONS <span class="caret"></span></a>
+					    <ul class="dropdown-menu">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else here</a></li>
+							<li><a href="#">Separated link</a></li>
 						</ul>
+					</li>
+					<li><a href="#">SHOP</a></li>
+					<li><a href="#">BLOG</a></li>
+					<li><a href="#">CONTACT</a></li>
+					<a href="#"><button type="button" class="btn">BUY NOW</button></a>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+<!--......................... Carousel............................................................................................ -->
+	<div id="homeCarousel" class="carousel slide">
+  	<!-- Menu: puntos -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+	    <li data-target="#homeCarousel" data-slide-to="1"></li>
+	  </ol>
+	    
+	<!-- Items -->
+	  	<div class="carousel-inner">
+	      
+	<!-- imagen 1 -->
+		    <div class="item active">
+		        <img src="img/img_slider_1.jpg"/>
+		      <div class="container">
+		        <div class="carousel-caption">
+		          	<h1>Simple & Awesome</h1>
+		          		<p>Beautiful, Elegantly Coded</p>
+		          <p><a class="btn btn-lg btn-primary" href="https://getbootstrap.com">SEE MORE</a>
+		        </p></div>
+		      </div>
+		    </div>
+		      
+		<!-- imagen 2 -->
+		    <div class="item">
+		        <img src="img/img_slider_2.jpg"/>
+		    <div class="container">
+		        <div class="carousel-caption">
+			        <h1>Slick Material Design</h1>
+			        <p>Beautiful, Elegantly Coded, One-Page WordPress Theme for Business</p>
+			        <p><a class="btn btn-large btn-primary" href="#">SEE MORE</a></p>
+		        </div>
+		    </div>
+		</div>
+	</div>
+	  <!-- Controles siguiente y atrás -->
+	<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+	    <span class="icon-prev"></span>
+	</a>
+	  	<a class="right carousel-control" href="#myCarousel" data-slide="next">
+	    	<span class="icon-next"></span>
+	  	</a>  
+	</div>
+<!--......................... container............................................................................................ -->	
+	<div class="container">
+		<section class="seccion_dos">
+			<div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-xs-12">
+						<p class="designed">Nullam blandit gravida viverra. Etiam turpis erat, sagittis sit amet felis non, porta porta justo. Integer ornare nibh nulla, id pulvinar metus cursus semper. Vivamus dictum pellentesque mi. Vivamus ipsum tellus, mattis non ex sed, semper sodales ligula. Vivamus luctus lorem.</p>
 					</div>
 				</div>
-			</nav>
-
-
-
-			<!-- Carousel -->
-<div id="homeCarousel" class="carousel slide">
-  <!-- Menu -->
-  <ol class="carousel-indicators">
-    <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#homeCarousel" data-slide-to="1"></li>
-    <li data-target="#homeCarousel" data-slide-to="2"></li>
-  </ol>
-    
-  <!-- Items -->
-  <div class="carousel-inner">
-      
-      <!-- Item 1 -->
-    <div class="item active">
-        <img src="http://lorempixel.com/1500/600/abstract/1"/>
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Bootstrap 3 Carousel Layout</h1>
-          <p>This is an example layout with carousel that uses the Bootstrap 3 styles.</p>
-          <p><a class="btn btn-lg btn-primary" href="https://getbootstrap.com">Learn More</a>
-        </p></div>
-      </div>
-    </div>
-      
-      <!-- Item 2 -->
-    <div class="item">
-        <img src="http://lorempixel.com/1500/600/abstract/2"/>
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Changes to the Grid</h1>
-          <p>Bootstrap 3 still features a 12-column grid, but many of the CSS class names have completely changed.</p>
-          <p><a class="btn btn-large btn-primary" href="#">Learn more</a></p>
-        </div>
-      </div>
-    </div>
-      
-      <!-- Item 3 -->
-    <div class="item">
-        <img src="http://lorempixel.com/1500/600/abstract/3" />
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Percentage-based sizing</h1>
-          <p>With "mobile-first" there is now only one percentage-based grid.</p>
-          <p><a class="btn btn-large btn-primary" href="#">Browse gallery</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="icon-prev"></span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="icon-next"></span>
-  </a>  
-</div>
-
+				<div>
+					<div class="col-lg-4 col-xs-12 cont">
+						<span class="glyphicon glyphicon-th center-block"></span>
+						<h3 class="designed">Responsive</h3>
+						<p>Lorem ipsum dolor sit amet elit do, consectetur adipiscing, sed eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="col-lg-4 col-xs-12 cont">
+						<span class="glyphicon glyphicon-th-list center-block"></span>
+						<h3 class="designed">Quality</h3>
+						<p>Lorem ipsum dolor sit amet elit do, consectetur adipiscing, sed eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="col-lg-4 col-xs-12 cont">
+						<span class="glyphicon glyphicon-menu-hamburger center-block"></span>
+						<h3 class="designed">Support</h3>
+						<p>Lorem ipsum dolor sit amet elit do, consectetur adipiscing, sed eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<hr>
+		</section>
+	</div>
 
 
 
