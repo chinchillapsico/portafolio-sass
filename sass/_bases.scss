@@ -1,0 +1,53 @@
+*{
+	font-family: $body_font;
+	display: inline-block;
+}
+
+#carouselButtons {
+  margin-left: 100px;
+  position: absolute;
+  bottom: 20px;
+  z-index: 9999;
+}
+/*.navbar-nav{
+	li:hover{
+		background-color:$background_uno;
+		a:hover{
+			color:$color_text_titulo;
+		}
+	}
+}
+.seccion_uno{
+	background-color:$background_uno;
+	padding-top:$padding;
+	h1, h3{
+		color:$color_text_titulo;
+		text-align:$text_center;
+	}
+}
+.seccion_dos{
+	background-color:$background_dos;
+	padding-top:$padding_footer;
+	@include excel();
+}
+.seccion_tres{
+	background-color:$background_dos;
+	padding-top:$padding_footer;
+	.desktop{
+		width:$width_desktop;
+		padding:$padding;
+	}
+	h1, h2, h3{
+		text-align:$text_center;
+	}
+	p{
+	@include excel();
+	}
+}
+
+@media (max-width: 600px){
+	.seccion_uno{
+		background-color:$background_uno;
+		padding-top:$padding_media;
+	}
+}*/
