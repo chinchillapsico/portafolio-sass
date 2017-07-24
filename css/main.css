@@ -5825,13 +5825,24 @@ button.close {
 #hero1 {
   background-image: url(../img/img_city.jpg);
   background-size: 100%;
-  height: 900px;
-  background-position: center center;
+  height: 800px;
+  background-position: center;
   background-attachment: fixed;
   color: white; }
 
 .carousel-inner > .item > a > img {
-  height: 900px !important; }
+  height: 900px;
+  /* tula */ }
+
+.float-right {
+  float: right; }
+
+.float-left {
+  float: left; }
+
+#portfolio figure {
+  width: 90%;
+  margin: 0 auto; }
 
 /*.navbar-nav{
 	li:hover{

@@ -18,16 +18,23 @@
 }
 #hero1{
   background-image: url(../img/img_city.jpg);
-  background-size:100%;
-  height:$height_cr;
-  background-position:center center;
-  background-attachment:fixed;
-  color:white;
+  background-size: 100%;
+  height:800px;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
 
 }
- .carousel-inner> .item > a> img{
- height:900px !important;
- }
+.carousel-inner > .item > img{
+	position: $position-abs;
+	top: $cero;
+	left: $cero;
+	z-index: -1;
+	color:$color_text_p;
+	height: $height_cr;
+	
+}
+
  .float-right{
  	float:right;
  }
@@ -38,8 +45,9 @@
   width: 90%;
   margin: 0 auto;
 }
-
-
+img{
+	border-radius: $rad;
+}
 /*.navbar-nav{
 	li:hover{
 		background-color:$background_uno;
